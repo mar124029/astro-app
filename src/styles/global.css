@@ -79,4 +79,18 @@ h1{
     .hamburger {
       display: none;
     }
+
+    
+}
+
+:root{
+  --skillColor: blue;
+  --fontWeight: bold;
+  --textCase: uppercase;
+}
+
+.skill{
+  color: var(--skillColor);
+  font-weight: var(--fontWeight);
+  text-transform: var(--textCase);
 }
