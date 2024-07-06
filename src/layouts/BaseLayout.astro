@@ -15,8 +15,13 @@ const { pageTitle } = Astro.props;
   <body>
     <Header />
     <h1>{pageTitle}</h1>
+    <div class="contenedor-dop">
+      <dotlottie-player class="space" src="https://lottie.host/f1b73505-b777-4e92-b39a-caed6118da32/ImS8TLCkEN.json" background="transparent" speed="1" style="width: 300px; height: 300px; scale:3" loop autoplay></dotlottie-player>
+    </div>
     <slot/>
     <Footer />
+
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
     <script>
       import "../scripts/menu.js";
     </script>
