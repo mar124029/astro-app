@@ -109,3 +109,12 @@ h1{
 .space{
   z-index: -1;
 }
+
+html.dark{
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links a{
+  color: #fff;
+}
